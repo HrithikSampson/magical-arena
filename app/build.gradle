@@ -15,6 +15,17 @@ application {
     mainClass = 'magicalarena.app.App'
 }
 
+tasks.named('test') { 
+    useJUnitPlatform()
+}
+test {
+    testLogging {
+        exceptionFormat "full"
+        events "started", "skipped", "passed", "failed"
+        showStandardStreams true
+    }
+}
+
 run {
     standardInput = System.in
 }
