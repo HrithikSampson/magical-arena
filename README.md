@@ -46,6 +46,5 @@ To get started, follow these steps:
 
 ## Usage
 
-
 ```bash
 ./gradlew run --console=plain
