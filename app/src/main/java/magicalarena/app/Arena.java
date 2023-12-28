@@ -40,7 +40,7 @@ public class Arena implements IArena{
         System.out.println("Defender Status!");
         System.out.println(firstAttacker);
     }
-    private int dieRoll() {
+    protected int dieRoll() {
         return ((int)(Math.random() * 6) + 1);
     }
 }

@@ -44,7 +44,7 @@ public class Game {
         try {
             Player player = new Player(this.id+1,health,strength,attack);
             playerList.put(this.id+1,player);
-            System.out.println("Player has been created and assigned ID "+this.id+1);
+            System.out.println("Player has been created and assigned ID "+(this.id+1));
             System.out.println(player);
             this.id++;
         } catch(IllegalArgumentException e) {
